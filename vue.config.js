@@ -5,7 +5,7 @@ module.exports = defineConfig({
     // port: 8083, // 生产环境启动端口
     proxy: {
       '/account': {
-        target: 'http://172.17.143.210:8000',
+        target: 'http://172.17.143.210:9005',
         ws: false, // proxy websockets
         changOrigin: true, // 是否允许跨域
         // pathRewrite: { // 重定向
